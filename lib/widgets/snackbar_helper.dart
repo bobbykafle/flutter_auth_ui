@@ -29,12 +29,12 @@ ScaffoldFeatureController<SnackBar, SnackBarClosedReason> showSnackbar(
   Color? _getSnackbarColor(SnackbarState state) {
     switch (state){
       case SnackbarState.neutral:
-      return Colors.blueGrey;
+         return Colors.blueGrey;
       case SnackbarState.success:
-      return Colors.green.shade300;
+        return Colors.green.shade300;
       case SnackbarState.failure:
       case SnackbarState.error:
-      return Colors.red.shade400;
+        return Colors.red.shade400;
      
     }
    
