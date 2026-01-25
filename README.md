@@ -1,16 +1,78 @@
-# first_project
+# Flutter Authentication & Dashboard App 🚀
 
-A new Flutter project.
+A Flutter-based mobile application focused on **authentication flows, reusable UI components, and a dashboard layout**.  
+This project is built as part of my learning journey in **Flutter & mobile app development**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User Authentication
+  - Login
+  - Register
+  - Forgot Password
+  - OTP Confirmation
+  - Change Password
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🧭 Dashboard Layout
+  - Home Screen
+  - Profile Page
+  - Store & Wishlist Screens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🎨 Reusable UI Components
+  - Custom Buttons
+  - Password Fields
+  - Icons with Text
+  - Snackbar Helpers
+  - Validators
+
+- 🌙 Theming
+  - Custom themes
+  - Centralized styling
+  - Reusable text & color configurations
+
+---
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **Tools:** VS Code, Git, GitHub  
+- **UI:** Material Design  
+
+---
+
+## 🎯 Purpose of This Project
+
+- Practice Flutter UI development  
+- Understand authentication flows  
+- Build reusable and scalable widgets  
+- Learn clean project structure and theming  
+
+This project is part of my **BSc CSIT learning and internship preparation**.
+
+---
+
+## 🚧 Project Status
+
+- UI & layouts: ✅ Completed  
+- Authentication flow: ✅ Implemented (UI level)  
+- Backend integration: ⏳ Planned  
+
+---
+
+## 🤝 Contributions
+
+This is a learning project.  
+Suggestions and improvements are welcome!
+
+---
+
+## 📌 Author
+
+**Babita Kaphle**  
+BSc CSIT Student | Aspiring Flutter Developer  
+Kathmandu, Nepal
