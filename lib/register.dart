@@ -107,7 +107,7 @@ final confirmPasswordController = TextEditingController();
                               Navigator.pushNamed(context, "/dashboard",);
                              } 
                              
-                            },
+                            }, text: '',//
                           ),
                           const SizedBox(
                               height: 10,

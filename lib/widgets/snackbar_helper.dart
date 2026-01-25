@@ -35,8 +35,7 @@ ScaffoldFeatureController<SnackBar, SnackBarClosedReason> showSnackbar(
       case SnackbarState.failure:
       case SnackbarState.error:
         return Colors.red.shade400;
-     
-    }
+        }
    
   }
   

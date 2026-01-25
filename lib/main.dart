@@ -1,3 +1,4 @@
+import 'package:first_project/widgets/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:first_project/change_password.dart';
 import 'package:first_project/confirm_otp.dart';
@@ -5,6 +6,8 @@ import 'register.dart';
 import 'login.dart';
 import 'dashboard.dart';
 import 'forget.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -23,12 +26,17 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
    
     return MaterialApp(
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      themeMode: ThemeMode.system,
+      
+      
 
       routes:{
         "/register" : (context) => MyRegister(),
         "/dashboard": (context) => Dashboard(),
         "/change_password" : (context) => Changepassword(),
-        "/confirm_otp":(context) => ConfirmOtp(),
+        "/confirm_otpgit ":(context) => ConfirmOtp(),
         "/login" : (context) => Login(),
         "/forget":(context) => myPasswordState(),
       },

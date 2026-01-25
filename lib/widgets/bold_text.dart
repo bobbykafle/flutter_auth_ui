@@ -27,6 +27,8 @@ class Boldtext extends StatefulWidget {
 class _BoldtextState extends State<Boldtext> {
   @override
   Widget build(BuildContext context) {
+     // ignore: unused_local_variable
+     final textColor = widget.color ?? Theme.of(context).colorScheme.onPrimary;
     return Text(
       overflow: widget.textOverflow,
       widget.text,

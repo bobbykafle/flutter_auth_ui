@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:first_project/widgets/custom_theme.dart';
 
-class app_Theme{
-  app_Theme();
-}
  ThemeData lightTheme = ThemeData(
   useMaterial3: true,
   fontFamily: 'poppins',

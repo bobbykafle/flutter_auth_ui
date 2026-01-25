@@ -65,6 +65,7 @@ class _ConfirmOtpState extends State<ConfirmOtp> {
       child: Column(
       children: [Pinput(
         length:4,
+        
         validator: (value){
           if(value == validPin){
             return null;
@@ -92,7 +93,7 @@ class _ConfirmOtpState extends State<ConfirmOtp> {
           Navigator.pushNamed(context, "/change_password");
           
         }
-      },
+      }, text: '',///
       )
       
         ],

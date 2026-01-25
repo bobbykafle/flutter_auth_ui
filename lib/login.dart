@@ -1,6 +1,4 @@
-// ignore_for_file: unused_field
-
-
+import 'package:first_project/widgets/squre_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:first_project/widgets/app_validators.dart';
 import 'package:first_project/widgets/password_field.dart';
@@ -8,9 +6,6 @@ import 'package:first_project/forget.dart';
 import 'package:first_project/widgets/bold_text.dart';
 import 'package:first_project/widgets/button.dart';
 import 'package:first_project/widgets/component.dart';
-
-
-
 
 class Login extends StatefulWidget {
    const Login({super.key});
@@ -21,6 +16,11 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> {
     final _formKey = GlobalKey<FormState>();
+
+
+    //fireBase Auth 
+    String? errorMessage = '';
+    bool isLoading = true; 
   //text eiditing controllers 
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
@@ -139,7 +139,7 @@ class _LoginState extends State<Login> {
                                 return;
                               }
             
-                            },
+                            }, text: '',
                               
                              
                             ),
@@ -175,12 +175,11 @@ class _LoginState extends State<Login> {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                               // squreTile(
-                                 // imagePath: 'assets/images/icons8-google-100.png'),
-                                 /// const SizedBox( width:10,),
+                               SqureTile(imagePath: "assets/images/google.png"),
+                                 const SizedBox( width:20,),
 
-                              // squreTile(
-                                //  imagePath: 'assets/images/icons8-apple-inc-100.png'),                             
+                               SqureTile(
+                                 imagePath: "assets/images/apple.png"),                             
                               ],
                             ),
                             const SizedBox(

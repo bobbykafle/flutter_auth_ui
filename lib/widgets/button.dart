@@ -6,13 +6,13 @@ import 'package:first_project/widgets/bold_text.dart';
 // ignore: camel_case_types
  class my_buttonState extends StatelessWidget {
     final String buttonText;
-    final  Function() onValidSubmit; //cliick after validate 
+    final  Function() onValidSubmit; //click after validate 
   
     
-   my_buttonState({
+  const my_buttonState({
        super.key,
        required this.buttonText,
-       required this.onValidSubmit,
+       required this.onValidSubmit, required String text,
        
 
    });
@@ -21,7 +21,15 @@ import 'package:first_project/widgets/bold_text.dart';
    //calling widget validator
   @override
   Widget build(BuildContext context) {
+// ignore: unused_local_variable
+final colorScheme = Theme.of(context).colorScheme;
+
     return Card(
+      elevation: 2,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(12)
+      ),
+      color: colorScheme.primary, // background adapts theme
                  child: InkWell(
                   onTap: () =>  onValidSubmit(),
                    child: Container( 
@@ -36,7 +44,7 @@ import 'package:first_project/widgets/bold_text.dart';
                    alignment: Alignment.center,
                     child: Boldtext(
                      text: buttonText,
-                       size: 13,
+                       size: 13, // font text
                               
                                    ),
                                   
