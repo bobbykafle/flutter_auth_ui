@@ -16,7 +16,6 @@ This project is built as part of my learning journey in **Flutter & mobile app d
 
 - 🧭 Dashboard Layout
   - Home Screen
-  - Profile Page
   - Store & Wishlist Screens
 
 - 🎨 Reusable UI Components
@@ -30,9 +29,6 @@ This project is built as part of my learning journey in **Flutter & mobile app d
   - Custom themes
   - Centralized styling
   - Reusable text & color configurations
-
----
-
 
 ---
 
