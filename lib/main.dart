@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
         "/register" : (context) => MyRegister(),
         "/dashboard": (context) => Dashboard(),
         "/change_password" : (context) => Changepassword(),
-        "/confirm_otpgit ":(context) => ConfirmOtp(),
+        "/confirm_otp":(context) => ConfirmOtp(),
         "/login" : (context) => Login(),
         "/forget":(context) => myPasswordState(),
       },
