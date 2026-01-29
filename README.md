@@ -78,7 +78,7 @@ Kathmandu, Nepal
 ## 🎥 Demo Video
 
 Watch the app in action:  
-https://github.com/user-attachments/assets/ab423ab7-5419-4ea1-baa8-716ae5f23fc1
+
 
 
 
