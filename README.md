@@ -67,14 +67,6 @@ Suggestions and improvements are welcome!
 
 ---
 
-## 📌 Author
-
-**Babita Kaphle**  
-BSc CSIT Student | Aspiring Flutter Developer  
-Kathmandu, Nepal
-
----
-
 ## 🎥 Demo Video
 
 Watch the app in action:  
