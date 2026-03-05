@@ -53,7 +53,6 @@ This project is part of my **BSc CSIT learning and internship preparation**.
 ---
 
 ## 🚧 Project Status
-
 - UI & layouts: ✅ Completed  
 - Authentication flow: ✅ Implemented (UI level)  
 - Backend integration: ⏳ Planned  
@@ -61,14 +60,12 @@ This project is part of my **BSc CSIT learning and internship preparation**.
 ---
 
 ## 🤝 Contributions
-
 This is a learning project.  
 Suggestions and improvements are welcome!
 
 ---
 
 ## 🎥 Demo Video
-
 Watch the app in action:  
 
 https://github.com/user-attachments/assets/a7c090a7-529c-418b-8154-de157472f206
