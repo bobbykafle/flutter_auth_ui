@@ -1,4 +1,4 @@
-# Flutter Authentication & Dashboard App 🚀
+# Flutter Authentication 
 
 A Flutter-based mobile application focused on **authentication flows, reusable UI components, and a dashboard layout**.  
 This project is built as part of my learning journey in **Flutter & mobile app development**.
